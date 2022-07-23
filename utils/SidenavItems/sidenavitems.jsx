@@ -28,7 +28,7 @@ export const navData = {
                 {
                     title: "Tambah Karyawan",
                     icon: <PeopleAlt className="h-5 w-5" />,
-                    link: "/"
+                    link: "../../api/krediturPage/Kreditur"
                 },
             ]
         },

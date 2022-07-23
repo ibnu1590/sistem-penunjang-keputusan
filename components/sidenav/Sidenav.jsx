@@ -37,7 +37,7 @@ export const Sidenav = () => {
                             <div key={index} className="text-gray-50 flex flex-col">
                                 {seconTitle && <span className="pl-5 text-gray-400">{seconTitle}</span>}
                                 {title && (
-                                <Link href={"/"}>
+                                <Link href={link}>
                                     <a className="flex space-x-4 items-center p-5 hover:bg-gray-200 text-gray-800"
                                     onClick={() => setOpen(false)}>
                                     <span className="text-gray-800">{icon}</span>
